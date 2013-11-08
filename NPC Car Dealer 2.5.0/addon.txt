@@ -1,0 +1,24 @@
+"AddonInfo"
+{
+"name" "NPC Car Dealer"
+"author_name" "author"
+"info" "After having this addon kept privately on my community RP server, I've decided to publicly release it. With this addon, you can control whether cars are VIP or not and set the price. Even better, once you buy the car, you won't have to buy it again, even if you disconnect. If you add this to a server, you will get npcshopsaves.txt appear in the data folder, where everyones cars will be saved, ready for them to re-use over and over again.
+Please do not report bugs, as I Will not help you fix them.
+
+How to make the NPC show on different maps 
+- Open config.lua inside lua\npcshop\
+- Inside you'll notice co-ordinates.
+- Type getpos into your console to get the position of the NPC/position of the car spawn
+- Type the positions out sepertately, so if you get positions like..
+setpos 343.251465 -2989.157959 136.031250;setang 14.960034 113.380096 0.000000
+You put in the brackets... pos = Vector(343, -2989, 136), ang = Angle(14, 113, 0)
+- When you've positioned that, you do the same with the CAR spawn.
+- Save config.lua and open up server.lua
+- You will see these lines... 
+shop:SetPos( Vector(0, 0, 0) )
+shop:SetAngles( Angle(0, 0, 0) )
+- You put the SAME co-ordinates as you did with the NPC SPAWN, NOT CAR SPAWN!
+
+This addon was designed for Fatality Gaming, and was made specifically for us. Fatality Gaming own all copyright towards this addon.
+"
+}

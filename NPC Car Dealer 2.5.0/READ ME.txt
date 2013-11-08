@@ -1,0 +1,6 @@
+Fixed for DarkRP 2.5.0 11/7/13
+"HotFix" by ds2198 :D
+If you have any issues let me know via steam.
+
+In server.lua line 8 put your npc spawn vectors.
+Edit the config.lua lines 17 - 26 as well!
